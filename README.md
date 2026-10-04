@@ -19,7 +19,7 @@ Browser-local storage remembers demo data. Buyer and seller roles share that dat
 3. Choose the manufacturer quote. Simulate sample review, confirm its checklist, then place the simulated goods order. The allowances are included in comparison, not collected as payment.
 4. Switch to seller. Open **Orders → Confirm capacity → Mark packed → Simulate dispatch**. Saving a request or quoting does not commit production.
 5. Switch back to buyer. Open **Orders → Record received goods**. A discrepancy can be recorded without promising a refund. A received order can populate a repeat basket.
-6. Show **Buying assistance**: ₹299 per assignment, or a simulated ₹999 monthly plan for four jobs. One or three jobs favour per-use. Basic discovery and self-coordination remain free.
+6. Show **Buying assistance**: ₹349 per assignment, or a simulated ₹1,199 monthly plan for four jobs. One or three jobs favour per-use. Basic discovery and self-coordination remain free.
 
 To demonstrate the custom-sourcing challenger: buyer **My requests → New request**, select bounded customisation and supply exact specifications. Switch to seller **Buyer requests → Prepare quote**. Submit complete terms and switch back to compare. Custom quotes require sample approval. This prototype does not model a real production pool or guarantee compatible demand.
 
@@ -46,7 +46,7 @@ For listing management: seller **My stock → Add listing**, edit price/minimum/
 
 No external users, accounts, login, real supplier verification, tax determination, payments, escrow, credit underwriting, finance interest, guarantees, inventory reservations or carrier integration. Contact detection is a simple demo regex, not secure moderation. Images represent product families, not audited exact SKUs. Role switching is deliberately unrestricted; it is not access control. Monthly activation and order confirmations are simulated and explicitly labelled. The initial tour populates a demonstration basket but creates no order.
 
-The complete-cost example uses the project's single-assignment model: ₹18,000 goods, ₹600 freight, ₹150 sample, ₹299 procurement fee, ₹200 loss allowance and roughly ₹266 cash-timing allowance. Rounded model total ₹19,515; demo payable ₹19,049. The latter excludes allowances. Inputs and resulting savings remain assumptions.
+The complete-cost example uses the project's single-assignment model: ₹18,000 goods, ₹600 freight, ₹150 sample, ₹349 procurement fee, ₹200 loss allowance and roughly ₹266 cash-timing allowance. Rounded model total ₹19,565; demo payable ₹19,099. The latter excludes allowances. Inputs and resulting savings remain assumptions.
 
 ## Files and checks
 
@@ -61,3 +61,7 @@ The prototype illustrates workflows from the project research and submission bri
 ## Publishing preference
 
 The user requests that demo changes be pushed directly to [MeeshoMerchant](https://github.com/geethanshr/MeeshoMerchant). Keep that repository scoped to demo sources, assets and demo documentation; exclude the parent project's private research and other non-demo material. The repository is private. A source push does not promise public GitHub Pages hosting or a publicly reachable demo. Future platform changes should be verified, committed and pushed directly to this repository.
+
+## Pricing alignment, 4 October 2026
+
+Proposed total service bills are ₹349 per standard assignment and ₹1,199/month for up to four standard assignments. Four individual assignments cost ₹1,396; the plan saves ₹197. These are proposed demo prices, not observed willingness or actual payments. All simulation labels remain in place.
