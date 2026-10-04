@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-04T04:53:03.004Z",
+  "title": "Design System: Meesho Merchant demo",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "primary",
+        "tonalRamp": [
+          "#280822",
+          "#501045",
+          "#771867",
+          "#9f2089",
+          "#b758a7",
+          "#cf90c4",
+          "#e7c7e2",
+          "#f5e9f3"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "primary hover",
+        "tonalRamp": [
+          "#21071c",
+          "#410e38",
+          "#621454",
+          "#821b70",
+          "#a15494",
+          "#c18db8",
+          "#e0c6db",
+          "#f3e8f1"
+        ]
+      },
+      "plum": {
+        "role": "secondary",
+        "displayName": "plum",
+        "tonalRamp": [
+          "#0d050e",
+          "#190a1c",
+          "#260f29",
+          "#321437",
+          "#654f69",
+          "#998a9b",
+          "#ccc4cd",
+          "#ebe8eb"
+        ]
+      },
+      "pink": {
+        "role": "secondary",
+        "displayName": "pink",
+        "tonalRamp": [
+          "#3e3a3d",
+          "#7c757a",
+          "#baafb7",
+          "#f8e9f4",
+          "#faeff7",
+          "#fcf4fa",
+          "#fdfafc",
+          "#fefdfe"
+        ]
+      },
+      "hero": {
+        "role": "secondary",
+        "displayName": "hero",
+        "tonalRamp": [
+          "#3d3a3b",
+          "#7b7477",
+          "#b8aeb2",
+          "#f5e8ed",
+          "#f8eef2",
+          "#faf4f6",
+          "#fdf9fb",
+          "#fefdfd"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "paper",
+        "tonalRamp": [
+          "#3f3e3e",
+          "#7d7d7c",
+          "#bcbbb9",
+          "#faf9f7",
+          "#fbfbf9",
+          "#fdfcfb",
+          "#fefefd",
+          "#fffefe"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "surface",
+        "tonalRamp": [
+          "#404040",
+          "#808080",
+          "#bfbfbf",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "text",
+        "tonalRamp": [
+          "#0c0b0d",
+          "#181519",
+          "#242026",
+          "#302a32",
+          "#645f65",
+          "#989599",
+          "#cbcacc",
+          "#eaeaeb"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "tonalRamp": [
+          "#1c1a1d",
+          "#39353b",
+          "#554f58",
+          "#716975",
+          "#958f98",
+          "#b8b4ba",
+          "#dcdadd",
+          "#f1f0f1"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "border",
+        "tonalRamp": [
+          "#3a3839",
+          "#747073",
+          "#ada7ac",
+          "#e7dfe5",
+          "#ede7ec",
+          "#f3eff2",
+          "#f9f7f9",
+          "#fdfcfc"
+        ]
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "field border",
+        "tonalRamp": [
+          "#373537",
+          "#6f696f",
+          "#a69ea6",
+          "#ddd2dd",
+          "#e6dde6",
+          "#eee9ee",
+          "#f7f4f7",
+          "#fcfbfc"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "focus",
+        "tonalRamp": [
+          "#2b1b2b",
+          "#563656",
+          "#815181",
+          "#ac6cac",
+          "#c191c1",
+          "#d6b6d6",
+          "#eadaea",
+          "#f7f0f7"
+        ]
+      },
+      "success": {
+        "role": "neutral",
+        "displayName": "success",
+        "tonalRamp": [
+          "#091a14",
+          "#123527",
+          "#1b4f3b",
+          "#24694e",
+          "#5b8f7a",
+          "#92b4a7",
+          "#c8dad3",
+          "#e9f0ed"
+        ]
+      },
+      "success-surface": {
+        "role": "neutral",
+        "displayName": "success surface",
+        "tonalRamp": [
+          "#3b3d3c",
+          "#757b77",
+          "#b0b8b3",
+          "#eaf5ee",
+          "#eff8f2",
+          "#f5faf7",
+          "#fafdfb",
+          "#fdfefd"
+        ]
+      },
+      "warning": {
+        "role": "neutral",
+        "displayName": "warning",
+        "tonalRamp": [
+          "#211507",
+          "#412a0d",
+          "#623f14",
+          "#82541a",
+          "#a17f53",
+          "#c1aa8d",
+          "#e0d4c6",
+          "#f3eee8"
+        ]
+      },
+      "warning-surface": {
+        "role": "neutral",
+        "displayName": "warning surface",
+        "tonalRamp": [
+          "#403d37",
+          "#80796e",
+          "#bfb6a4",
+          "#fff2db",
+          "#fff5e4",
+          "#fff9ed",
+          "#fffcf6",
+          "#fffefb"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Entry display",
+        "purpose": "Desktop role-entry headline."
+      },
+      "headline": {
+        "displayName": "Workspace headline",
+        "purpose": "Page headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Readable work and explanation."
+      }
+    },
+    "shadows": [
+      {
+        "name": "save",
+        "value": "0 2px 10px #34212e14",
+        "purpose": "Floating save layer."
+      },
+      {
+        "name": "tour",
+        "value": "0 12px 40px #32143722",
+        "purpose": "Floating tour layer."
+      },
+      {
+        "name": "modal",
+        "value": "0 18px 65px #1b082c33",
+        "purpose": "Floating modal layer."
+      },
+      {
+        "name": "toast",
+        "value": "0 4px 20px #32143730",
+        "purpose": "Floating toast layer."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-state",
+        "value": "background .15s, transform .15s",
+        "purpose": "Button states; disabled under reduced motion."
+      },
+      {
+        "name": "tour-entrance",
+        "value": ".25s ease-out",
+        "purpose": "Walkthrough entrance; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1650px"
+      },
+      {
+        "name": "intermediate",
+        "value": "1150px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "narrow-phone",
+        "value": "370px"
+      }
+    ],
+    "rampNote": "Synthesized RGB tonal previews for the panel only; not implementation tokens."
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Implemented button treatment with hover and keyboard focus.",
+      "html": "<button class=\"ds-button-primary\">Continue demo</button>",
+      "css": ".ds-button-primary{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:11px 18px;border-radius:8px;font-weight:800;border:1px solid #9f2089;background:#9f2089;color:#fff;min-height:44px;transition:background .15s,transform .15sfont:800 15px Nunito,'Segoe UI',sans-serif}.ds-button-primary:hover{background:#821b70;border-color:#821b70}.ds-button-primary:focus-visible{outline:3px solid #ac6cac;outline-offset:3px}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Implemented button treatment with hover and keyboard focus.",
+      "html": "<button class=\"ds-button-secondary\">Continue demo</button>",
+      "css": ".ds-button-secondary{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:11px 18px;border-radius:8px;font-weight:800;border:1px solid #9f2089;background:#9f2089;color:#fff;min-height:44px;transition:background .15s,transform .15sbackground:#fff;color:#9f2089;border-color:#decaddfont:800 15px Nunito,'Segoe UI',sans-serif}.ds-button-secondary:hover{background:#fbf2f9}.ds-button-secondary:focus-visible{outline:3px solid #ac6cac;outline-offset:3px}"
+    },
+    {
+      "name": "Quiet button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Implemented button treatment with hover and keyboard focus.",
+      "html": "<button class=\"ds-button-quiet\">Continue demo</button>",
+      "css": ".ds-button-quiet{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:11px 18px;border-radius:8px;font-weight:800;border:1px solid #9f2089;background:#9f2089;color:#fff;min-height:44px;transition:background .15s,transform .15sborder-color:transparent;background:transparent;color:#716975font:800 15px Nunito,'Segoe UI',sans-serif}.ds-button-quiet:hover{background:#f4eef3;color:#321437}.ds-button-quiet:focus-visible{outline:3px solid #ac6cac;outline-offset:3px}"
+    },
+    {
+      "name": "Labelled field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Labelled field from the implemented demo.",
+      "html": "<label class=\"ds-field\">Required quantity<input class=\"ds-input\" type=\"number\" value=\"100\"></label>",
+      "css": ".ds-field{display:grid;gap:6px;font-size:13px;font-weight:800;color:#514454font-family:Nunito,'Segoe UI',sans-serif}.ds-input{font:inheritfont:15px Nunito,'Segoe UI',sans-serif}.ds-input:focus-visible{outline:3px solid #ac6cac;outline-offset:3px}"
+    },
+    {
+      "name": "Selected navigation",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "Selected navigation from the implemented demo.",
+      "html": "<nav aria-label=\"Demo navigation\"><button class=\"ds-nav\">Browse stock</button></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:11px;padding:12px;border:0;background:transparent;color:#6c6370;font-weight:700;border-radius:8px;text-align:leftbackground:#f8e9f4;color:#9f2089font-family:Nunito,'Segoe UI',sans-serif}.ds-nav:hover{background:#fbf5f9}.ds-nav:focus-visible{outline:3px solid #ac6cac;outline-offset:3px}"
+    },
+    {
+      "name": "Selected filter",
+      "kind": "chip",
+      "refersTo": "filter-active",
+      "description": "Selected filter from the implemented demo.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">Towels</button>",
+      "css": ".ds-filter{border:1px solid #e3dce2;background:#fff;border-radius:30px;color:#625669;padding:7px 14px;font-size:13px;font-weight:700;white-space:nowrapcolor:#9f2089;background:#f8e9f4;border-color:#c896bbfont-family:Nunito,'Segoe UI',sans-serif}.ds-filter:focus-visible{outline:3px solid #ac6cac;outline-offset:3px}"
+    },
+    {
+      "name": "Work panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Work panel from the implemented demo.",
+      "html": "<section class=\"ds-panel\"><strong>Complete buying terms</strong><p>Goods, freight and optional service appear separately.</p></section>",
+      "css": ".ds-panel{background:#fff;border:1px solid #e7dfe5;border-radius:12px;padding:24pxcolor:#302a32;font:15px/1.5 Nunito,'Segoe UI',sans-serif}.ds-panel p{color:#716975}"
+    },
+    {
+      "name": "Walkthrough",
+      "kind": "custom",
+      "description": "Walkthrough from the implemented demo.",
+      "html": "<aside class=\"ds-tour\"><small>Buyer walkthrough</small><h3>Find usable stock</h3><p>Browse quantities and complete terms.</p></aside>",
+      "css": ".ds-tour{background:#fff;border:1px solid #d8bfd4;border-radius:13px;padding:22px;box-shadow:0 12px 40px #32143722;max-width:385px;font:14px/1.65 Nunito,'Segoe UI',sans-serif;color:#302a32}.ds-tour small{color:#9f2089;font-weight:900}.ds-tour h3{font-size:21px;margin:8px 0}.ds-tour p{color:#716975}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Familiar Meesho commerce",
+    "overview": "Preserve the user-pinned Meesho identity: berry-magenta actions, deep plum headlines, warm white canvas, subtle purple accents and useful home-textile photography. The interface feels approachable and practical, with simple English, clear quantities and complete buying terms. This is a code-first implementation; no approved interface image composition defines the layout.",
+    "keyCharacteristics": [
+      "Familiar commerce identity and product-led discovery.",
+      "Compact, legible controls and calm bordered work surfaces.",
+      "Connected buyer and supplier views with persistent prototype identification."
+    ],
+    "rules": [
+      {
+        "name": "The Honest Demo Rule",
+        "body": "Keep the concept label visible in both desktop and mobile headers. Stock, quotes, suppliers and order activity are illustrative; styling must not imply verified or live transactions.",
+        "section": "overview"
+      },
+      {
+        "name": "The Useful Space Rule",
+        "body": "Preserve room for products and decisions on a phone; keep the compact hero and two-column catalogue rather than expanding decorative photography above discovery.",
+        "section": "layout"
+      },
+      {
+        "name": "The Floating Layer Rule",
+        "body": "Reserve stronger shadows for walkthroughs, dialogs and feedback; do not apply modal depth to ordinary product or request cards.",
+        "section": "elevation & depth"
+      }
+    ],
+    "dos": [
+      "Do preserve the berry identity, warm paper canvas and useful textile photography.",
+      "Do keep Concept demo identification and the labelled mobile Guide visible.",
+      "Do show full terms, clear quantities and separate optional service charges in legible work panels.",
+      "Do retain keyboard focus, labelled fields, SVG icons and reduced-motion behavior.",
+      "Do preserve shared buyer/supplier state when switching roles."
+    ],
+    "donts": [
+      "Don't replace the pinned commerce aesthetic with a novel identity.",
+      "Don't expand the mobile catalogue hero into a large photographic block above products.",
+      "Don't use live-payment, verified-supplier or achieved-result styling for illustrative data.",
+      "Don't substitute generic image placeholders for the implemented product-photo cells."
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "meesho-merchant-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Credential-free Meesho Merchant concept prototype",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests/demo.test.cjs && node tests/quantity.test.cjs && node tests/offline.test.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
