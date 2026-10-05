@@ -2,6 +2,24 @@
 
 A responsive, credential-free concept prototype for the proposed Panipat–Karnal home-textile service. All products, suppliers, prices, quotes, messages and transactions are illustrative. No actual payment, purchase, shipment, verification or lending occurs.
 
+## Plain-language UI
+
+Use the final deck's promise, **Better buying for independent shops**, consistently. **One buying job** means confirming the buying list, comparing costs, agreeing terms, tracking delivery and checking receipt. The proposed **buying help fee** is ₹349 for one standard buying job, or ₹1,199/month for up to four standard buying jobs. These remain proposed prices in a labelled demo.
+
+| UI wording | Meaning |
+| --- | --- |
+| Minimum quantity | The smallest order the supplier offers |
+| Prices for larger orders | The listed quantity-based prices; buy only what the shop needs |
+| Supplier price offer | The supplier's price and terms for the exact requested quantity |
+| Delivery charge | The separate charge for delivering goods |
+| Buying help fee | The separate optional fee for one buying job |
+| Cost of paying earlier (estimate) | A comparison estimate, not a collected charge |
+| Possible losses (estimate) | A planning estimate, not insurance or a collected charge |
+| Confirm stock | Confirm the order's stock before packing |
+| Report a problem | Record missing, damaged, late or incorrect goods for review |
+
+Prefer these labels in controls, walkthroughs and explanations. Keep `Concept demo · sample data` and simulated-payment wording visible; simpler language does not make an estimate an observed result or a demo action a live transaction.
+
 ## Open it
 
 Live demo: https://geethanshr.github.io/MeeshoMerchant/
@@ -23,7 +41,7 @@ Browser-local storage remembers demo data. Buyer and seller roles share that dat
 3. Choose the manufacturer quote. Simulate sample review, confirm its checklist, then place the simulated goods order. The allowances are included in comparison, not collected as payment.
 4. Switch to seller. Open **Orders → Confirm capacity → Mark packed → Simulate dispatch**. Saving a request or quoting does not commit production.
 5. Switch back to buyer. Open **Orders → Record received goods**. A discrepancy can be recorded without promising a refund. A received order can populate a repeat basket.
-6. Show **Buying assistance**: ₹349 per assignment, or a simulated ₹1,199 monthly plan for four jobs. One or three jobs favour per-use. Basic discovery and self-coordination remain free.
+6. Show optional buying help: a proposed ₹349 for one standard buying job, or a simulated ₹1,199 monthly plan for up to four jobs. One or three jobs favour per-use. Basic discovery and self-coordination remain free.
 
 To demonstrate the custom-sourcing challenger: buyer **My requests → New request**, select bounded customisation and supply exact specifications. Switch to seller **Buyer requests → Prepare quote**. Submit complete terms and switch back to compare. Custom quotes require sample approval. This prototype does not model a real production pool or guarantee compatible demand.
 
@@ -68,4 +86,4 @@ The user requests that demo changes be pushed directly to [MeeshoMerchant](https
 
 ## Pricing alignment, 4 October 2026
 
-Proposed total service bills are ₹349 per standard assignment and ₹1,199/month for up to four standard assignments. Four individual assignments cost ₹1,396; the plan saves ₹197. These are proposed demo prices, not observed willingness or actual payments. All simulation labels remain in place.
+Proposed buying help fees are ₹349 for one standard buying job and ₹1,199/month for up to four standard buying jobs. Four individual jobs cost ₹1,396; the plan saves ₹197. These are proposed demo prices, not observed willingness or actual payments. All simulation labels remain in place.

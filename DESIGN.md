@@ -143,6 +143,12 @@ Use gently rounded rectangular controls and panels according to the frontmatter 
 
 ## Components
 
+### UI language
+
+Lead with the final deck's plain-language promise, **Better buying for independent shops**. Define **one buying job** as confirming the buying list, comparing costs, agreeing terms, tracking delivery and checking receipt. Label the separate optional charge **buying help fee**; current proposed demo prices are ₹349 for one standard buying job and ₹1,199/month for up to four standard buying jobs.
+
+Use the short glossary consistently: **minimum quantity** for the smallest supplier order; **prices for larger orders** for catalogue quantity prices; **supplier price offer** for exact-quantity quoted terms; **delivery charge** for freight; **cost of paying earlier (estimate)** for the cash-timing comparison; **possible losses (estimate)** for the planning loss allowance; **confirm stock** for the seller's stock confirmation; and **report a problem** for recording an order issue. Keep quantity-choice cautions, estimate labels and `Concept demo · sample data` visible. These copy choices preserve the existing proposal and simulated behavior.
+
 ### Buttons
 
 Primary actions use berry fill, white text, bold weight and minimum height (44px). Secondary actions use white fill and a pale berry border; quiet actions are transparent with muted text. Small buttons use padding (7px 11px) and minimum height (36px); catalogue add buttons have a denser local variant. Primary hover darkens the fill; secondary/quiet hover add pale tones. Disabled buttons dim to opacity (.48). Interactive elements share keyboard outline (3px) with offset (3px).
@@ -188,4 +194,4 @@ Dialogs center in a plum backdrop, use modal radius, width capped at (880px), na
 
 Source of truth: `index.html`, `styles.css`, `app.js`, and durable brand commitments in `../PRODUCT.md`. This document records implementation; it does not certify a whole-surface review pass.
 
-Publishing preference: push demo changes directly to `https://github.com/geethanshr/MeeshoMerchant`, scoped to demo sources, assets and demo documentation. Exclude private parent-project research. The repository is private; source publishing does not establish public Pages hosting.
+Publishing preference: push verified demo changes directly to `https://github.com/geethanshr/MeeshoMerchant`, scoped to demo sources, assets and demo documentation. The user approved making the demo repository public on 5 October 2026. The live GitHub Pages demo is `https://geethanshr.github.io/MeeshoMerchant/`. Exclude private parent-project research; only the demo is published.

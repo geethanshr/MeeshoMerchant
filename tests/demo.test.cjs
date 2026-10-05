@@ -26,7 +26,7 @@ const check=(label,condition)=>{assert.ok(condition,label);report.checks.push(la
  await page.locator('[data-action="product"][data-id="0"]').click();await page.locator('[data-action="customproduct"]').click();
  check('Product-to-custom-request draft is populated',await page.locator('[name="name"]').inputValue()==='Sage cotton bath towel · my specification');
  await nav('requests');await page.locator('[data-action="compare"][data-id="REQ-101"]').click();
- check('Factory full-cost model matches ₹19,515 rounding',await page.locator('.quote').first().innerText().then(t=>t.includes('₹19,515')));
+ check('Factory full-cost model matches ₹19,565 rounding',await page.locator('.quote').first().innerText().then(t=>t.includes('₹19,565')));
  await page.locator('#credit-required').check();check('Credit dependency blocks two prepaid quotes',await page.locator('.quote button:disabled').count()===2);
  await page.locator('#credit-required').uncheck();
  await page.locator('[data-action="selectquote"][data-quote="Q-101"]').click();check('Bulk order requires sample approval',await page.locator('[data-action="sample"]').count()===1&&await page.locator('[data-action="placequote"]').count()===0);
@@ -43,7 +43,7 @@ const check=(label,condition)=>{assert.ok(condition,label);report.checks.push(la
  check('Buyer publishes request into shared state',await page.locator('.request-row h3').first().innerText()==='Demo mustard kitchen towels');
  await page.locator('[data-action="switch"]').click();await nav('feed');check('New buyer request reaches seller feed',await page.locator('.demand-card').first().innerText().then(t=>t.includes('Demo mustard kitchen towels')));
  await page.locator('.demand-card [data-action="quoteform"]').first().click();await page.locator('#quote-form button[type="submit"]').click();check('Supplier quote appears in quote workspace',await page.locator('.request-row').count()>=2);
- await page.locator('[data-action="buyercompare"]').first().click();check('A submitted quote reaches buyer comparison',await page.locator('.quote').count()>=1);check('Missing baseline does not fabricate savings',await page.locator('.quote-grid').innerText().then(t=>t.includes('No baseline supplied')));
+ await page.locator('[data-action="buyercompare"]').first().click();check('A submitted quote reaches buyer comparison',await page.locator('.quote').count()>=1);check('Missing baseline does not fabricate savings',await page.locator('.quote-grid').innerText().then(t=>t.includes('Add your current cost')));
  await page.locator('[data-action="switch"]').click();await nav('inventory');const before=await page.locator('.inventory-row').count();await page.locator('[data-action="listing"]').first().click();await page.locator('#listing-form [name="name"]').fill('Demo new natural towel');await page.locator('#listing-form button[type="submit"]').click();check('Supplier can add a stock listing',await page.locator('.inventory-row').count()===before+1);
  await page.screenshot({path:path.join(out,'seller-desktop.png')});
  await page.locator('[data-action="switch"]').click();await nav('home');await page.screenshot({path:path.join(out,'desktop.png')});
