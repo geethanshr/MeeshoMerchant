@@ -4,6 +4,10 @@ A responsive, credential-free concept prototype for the proposed Panipat–Karna
 
 ## Open it
 
+Live demo: https://geethanshr.github.io/MeeshoMerchant/
+
+GitHub Pages publishes the root of `main`. Verified pushes update the website automatically.
+
 Double-click `index.html` in this folder. All shipped assets are local; no installation or internet is needed for the demo.
 
 For the easiest handoff, open `outputs/merchant-demo/Meesho_Merchant_Demo.html` from the research project root, or `dist/Meesho_Merchant_Demo.html` when building from the standalone GitHub checkout. It contains the complete app, photographs and font in one file. The accompanying ZIP includes that standalone file and editable sources. Regenerate both with `python build-demo.py` from this folder after source edits.
@@ -60,7 +64,7 @@ The prototype illustrates workflows from the project research and submission bri
 
 ## Publishing preference
 
-The user requests that demo changes be pushed directly to [MeeshoMerchant](https://github.com/geethanshr/MeeshoMerchant). Keep that repository scoped to demo sources, assets and demo documentation; exclude the parent project's private research and other non-demo material. The repository is private. A source push does not promise public GitHub Pages hosting or a publicly reachable demo. Future platform changes should be verified, committed and pushed directly to this repository.
+The user requests that demo changes be pushed directly to [MeeshoMerchant](https://github.com/geethanshr/MeeshoMerchant). Keep that repository scoped to demo sources, assets and demo documentation; exclude the parent project's private research and other non-demo material. The user approved making the demo repository public on 5 October 2026 to enable GitHub Pages. Keep the research project private; only this demo is published. Future platform changes should be verified, committed and pushed directly to this repository.
 
 ## Pricing alignment, 4 October 2026
 
